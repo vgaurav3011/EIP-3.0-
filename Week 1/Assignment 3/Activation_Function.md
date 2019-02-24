@@ -15,7 +15,7 @@ If we do not use any activation function then the weights and bias of the data w
 ### Commonly used Activation Functions:
 
 <br/>
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![Alt text]("https://github.com/vgaurav3011/EIP-3.0-/blob/master/Activation%20Function%20Diagrams/binary.png")
 
 
 

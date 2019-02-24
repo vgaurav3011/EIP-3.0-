@@ -9,7 +9,7 @@
 
         your accuracy printed out is more than 99.0000
 
-        Once done, share your Google Colab's URL in assignment 1A section<br/>
+        Once done, share your Google Colab's URL in assignment 1A section
 
         please remember to make sure that you have given us permission to check your file. To confirm this, open the link you are uploading in incognito window, and you should still be able to access it. If we cannot view your file, then you will be awarded 0 marks
 <br/>
@@ -34,17 +34,17 @@
         Pick any 5 topics from below. Each article cannot be less must be between 50 to 100 words.
 <br/>
         Topics:
-            Convolution
-            Filters/Kernels
-            Epochs
-            1x1 convolution
-            3x3 convolution
-            Feature Maps
-            Feature Engineering (older computer vision concept)
-            Activation Function
-            How to create an account on GitHub and upload a sample project
-            Receptive Field.
-            10 examples of use of MathJax in Markdown
+            Convolution <br/>
+            Filters/Kernels <br/>
+            Epochs <br/>
+            1x1 convolution <br/>
+            3x3 convolution <br/>
+            Feature Maps <br/>
+            Feature Engineering (older computer vision concept) <br/>
+            Activation Function <br/>
+            How to create an account on GitHub and upload a sample project <br/>
+            Receptive Field. <br/>
+            10 examples of use of MathJax in Markdown <br/>
 <br/>
         Upload your .md file to Assignment 1B section on the LMS. 
 <br/>

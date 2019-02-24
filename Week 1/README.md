@@ -1,13 +1,13 @@
-## Assignment 1 <br/>
-    Assignment 1A: <br/>
+## Assignment 1 
+    Assignment 1A: 
 
-        bit.ly/2IBqQJD Open this link and try and understand the code we referred in the classroom<br/>
+        bit.ly/2IBqQJD Open this link and try and understand the code we referred in the classroom
 
-        Change the model such that after executing these two lines:<br/>
-            score = model.evaluate(X_test, Y_test, verbose=0)<br/>
-            print(score)<br/>
+        Change the model such that after executing these two lines:
+            score = model.evaluate(X_test, Y_test, verbose=0)
+            print(score)
 
-        your accuracy printed out is more than 99.0000<br/>
+        your accuracy printed out is more than 99.0000
 
         Once done, share your Google Colab's URL in assignment 1A section<br/>
 

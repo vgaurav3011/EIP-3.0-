@@ -36,6 +36,7 @@ f'(x) = 0 for all values of x <br/>
 To overcome the problem of updating gradients during back propagation we make use of a simple step function to compute the errors of gradients. Mathematically, we can say that <br/>
 
 f(x) = ax and thus f'(x) = a<br/>
+<img src="https://github.com/vgaurav3011/EIP-3.0-/blob/master/Activation%20Function%20Diagrams/linear.png"/>
 
 Now, everytime we perform a back propagation the gradient would remain same and this becomes a problem as the model really does not improve as expected.
 
@@ -46,6 +47,7 @@ Now, everytime we perform a back propagation the gradient would remain same and 
 It is a widely used activation function especially in cases of determining of the probability since it has a range of [0,1]. Mathematically, <br/>
 
 f(x) = 1/(1+e^-x)<br/>
+<img src="https://github.com/vgaurav3011/EIP-3.0-/blob/master/Activation%20Function%20Diagrams/sigmoid.png"/>
 
 A smooth function having continual differentiability and can handle non-linear variations of data. Thus, it generates non-linear outputs as well. The gradient is extremely high between the values of 3 and -3 but gets much flatter in other regions. Therefore, it is desirable to use for classification based problems. However, the sigmoid function cannot handle negative range of values. <br/>
 
@@ -58,7 +60,7 @@ A scalable version of the sigmoid function which can handle negative values too.
 Mathematically, <br/>
 
 tanh(x) = 2.sigmoid(2*x) <br/>
-
+<img src="https://github.com/vgaurav3011/EIP-3.0-/blob/master/Activation%20Function%20Diagrams/tanh.png"/>
 The gradient of the tan h function is steeper as compared to the sigmoid function. This choice of using the sigmoid function or the tan h function depends upon the requirement of the gradient problem statement. However, similar to the sigmoid function the vanishing gradient problem still remains an issue here as well. <br/>
 
 ### 5. Rectified Linear Unit (ReLU) Function: 
@@ -68,6 +70,7 @@ The gradient of the tan h function is steeper as compared to the sigmoid functio
 A non-linear function defined as f(x) = max (0, x)<br/>
 
 It can easily perform backpropagation as it is non-linear and have multiple layers of neurons being activated by a single function. Its essence lies in the fact that it does not activate all the neurons at the same time. If the input is negative then it will convert it to zero and the neuron does not get activated creating a sparse network which is efficient and easy to compute. <br/>
+<img src="https://github.com/vgaurav3011/EIP-3.0-/blob/master/Activation%20Function%20Diagrams/relu.png"/>
 
 The ReLU function also has issue of gradients approaching towards zero and thus some weights never get updated during back propagation which leads to dead neurons. <br/>
 
@@ -89,10 +92,11 @@ The main advantage of replacing the horizontal line is to remove the zero gradie
 A suitable function to handle classification problems and has an advantage over sigmoid function as it is applicable to multiple classes. It determines the outputs for each class between 0 and 1 and would also divide by the sum of the outputs. This essentially gives the probability of the input being in a particular class. It can be defined as: <br/>
 
 Mathematically, we have: <br/>
-
+<img src="https://github.com/vgaurav3011/EIP-3.0-/blob/master/Activation%20Function%20Diagrams/softmax.png"/>
 ### 8. Scalable Exponential Linear Unit Function(SeLU):
 
 Essentially a ReLU function but can handle negative output values and also has ability to predict the values better. It has a gradual smooth curve compared to ReLU.<br/>
+<img src="https://github.com/vgaurav3011/EIP-3.0-/blob/master/Activation%20Function%20Diagrams/selu.png"/>
 
 
 

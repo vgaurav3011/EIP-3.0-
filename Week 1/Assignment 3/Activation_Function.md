@@ -15,8 +15,6 @@ If we do not use any activation function then the weights and bias of the data w
 ### Commonly used Activation Functions:
 
 <br/>
-![Alt text]("https://github.com/vgaurav3011/EIP-3.0-/blob/master/Activation%20Function%20Diagrams/binary.png")
-
 
 
 ####  1. Binary Step Function:<br/>
@@ -24,6 +22,8 @@ If we do not use any activation function then the weights and bias of the data w
 It is commonly used for extremely simple classification problems where the answer can be a simple yes or no to a given problem. It indicates whether a neuron is active or not and if the value Y is above a given threshold value then activate the neuron otherwise no action is to be taken. <br/>
 
 In simple maths, f(x) = 1 for x>=0<br/>
+  <img src="https://github.com/vgaurav3011/EIP-3.0-/blob/master/Activation%20Function%20Diagrams/binary.png"/>
+
 
 This may cause problems during back propagation because when the gradients are sent for computing errors then it does not handle them properly giving zero as output for most of them and thus improvement of models becomes restrained. <br/>
 

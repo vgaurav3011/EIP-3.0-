@@ -21,11 +21,6 @@
 
   <br/>  Assignment 1C
 <br/>
-        Download Typora (or any markdown editor you prefer)<br/>
-
-        You can refer this link to learn about markdown: Markdown Cheatsheet<br/>
-
-        Write articles on the topics mentioned below between 50-100 words in a markdown format and upload it on the LMS (would be soon made enabled)
 <br/>
         You must mention your name, registered email address and batch number in your markdown file.
 <br/>

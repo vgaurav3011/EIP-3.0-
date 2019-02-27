@@ -21,3 +21,4 @@ The input data is divided into two components in general: <br/>
       The idea is to correctly fit the data and thus too many epochs may lead to overfitting of the data while very few number of epochs may lead to underfitting of the data. <br/>
 
       <img src="https://github.com/vgaurav3011/EIP-3.0-/blob/master/Week%201/Assignment%203/epoch.png"/>
+            <img src="https://github.com/vgaurav3011/EIP-3.0-/blob/master/Week%201/Assignment%203/epoch_colab.png"/>

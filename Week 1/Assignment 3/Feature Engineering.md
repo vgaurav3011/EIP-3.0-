@@ -6,4 +6,4 @@ The process of obtaining a dataset and construction of features which can be use
 
 It is carried out by data scientists and analysts without technical background where they research manually different parameters affecting the results, identify patterns through data exploration and also research a potential solution to the problem by making new techniques on relevant features which can affect the data.
 
-<img src="https://cdn-images-1.medium.com/max/2000/1*j378-FXFsLyb7vsNOhcQOA.png"/>
+<img src="https://github.com/vgaurav3011/EIP-3.0-/blob/master/Week%201/Assignment%203/feature_engineering.png"/>
